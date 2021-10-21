@@ -52,11 +52,11 @@ https://docs.docker.com/compose/install/
 
 Добавьте в Secrets GitHub Actions переменные окружения для работы базы данных из файла .env.template.
 
-API доступен по адресу http://84.252.137.153/api/v1/.
+API доступен по адресу http://84.252.136.66/api/v1/.
 
 ## Документация
-http://84.252.137.153/redoc/.
+http://84.252.136.66/redoc/.
 
 
 ## Автор
-Проект разработал Djalyarim.
+Проект разработал Lacoast.
