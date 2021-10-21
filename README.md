@@ -33,7 +33,7 @@ Python 3, Django 3, Django REST Framework, PostgreSQL, Docker, Simple-JWT, Git A
 
 Склонируйте репозиторий на локальную машину:
 ```shell
-git clone https://github.com/Djalyarim/yamdb_final
+git clone https://github.com/lacoast/yamdb_final
 ```
 Установите и активируйте виртуальное окружение.
 
@@ -45,19 +45,19 @@ sudo systemctl stop nginx
 ```shell
 sudo apt install docker.io 
 ```
-Установите docker-compose согласно официальной документации:
+Установите docker-compose:
 ```shell
-https://docs.docker.com/compose/install/
+sudo apt install docker-compose
 ```
 Скопируйте файлы docker-compose.yaml и nginx/default.conf из проекта на сервер в home/<ваш_username>/docker-compose.yaml и home/<ваш_username>/nginx/default.conf соответственно.
 
 Добавьте в Secrets GitHub Actions переменные окружения для работы базы данных из файла .env.template.
 
-API доступен по адресу http://84.252.136.66/api/v1/.
+API доступен по адресу http://84.252.136.66/api/v1/
 
 ## Документация
-http://84.252.136.66/redoc/.
+http://84.252.136.66/redoc/
 
 
 ## Автор
-Проект разработал Lacoast.
+Lacoast
