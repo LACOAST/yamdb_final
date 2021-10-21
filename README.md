@@ -1,4 +1,4 @@
-![Workflow](https://github.com/Djalyarim/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+![Workflow](https://github.com/lacoast/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 # REST API Yamdb
 База отзывов пользователей о произведениях.
 ## Описание
