@@ -13,7 +13,6 @@ from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 
 from api_yamdb.settings import DEFAULT_FROM_EMAIL
-
 from .filters import TitleFilter
 from .models import Category, CustomUser, Genre, Review, Title
 from .permissions import IsAdmin, IsModerator, ReadOnly
